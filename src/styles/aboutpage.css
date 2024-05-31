@@ -1,0 +1,167 @@
+.aboutDiv {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding: 100px 100px 100px 80px;
+}
+.aboutStyle {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(237, 227, 240);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0px 100px 100px 0px;
+    z-index: -1;
+}
+.aboutBox {
+    width: 100%;
+    min-height: 100%;
+}
+.aboutIntro {
+    width: 100%;
+    color: #b4b2c5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.aboutHead {
+    width: 60%;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #130f49;
+    word-spacing: 0.3rem;
+    margin-bottom: 30px;
+}
+.aboutText {
+    width: 95%;
+    font-size: 20px;
+    font-family: serif;
+    line-height: 1.8rem;
+    word-spacing: 0.1rem;
+    color: #55527c;
+}
+.aboutText>p {
+    margin-bottom: 40px;
+}
+.bioPic {
+    width: 20rem;
+    height: 5rem;
+    display: flex;
+    margin-bottom: 50px;
+}
+.picDiv {
+    width: 25%;
+    height: 100%;
+}
+.pic {
+    width: 100%;
+    height: 100%;
+    background-color: #9995d1;
+    border-radius: 50%;
+    border: 4px solid white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    overflow: hidden;
+}
+.pic>img {
+    width: 4.5rem;
+}
+.bioDiv {
+    width: 75%;
+    height: 100%;
+    padding-left: 25px;
+}
+.upDiv {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 630;
+    color: #130f49;
+}
+.downDiv {
+    width: 100%;
+    height: 50%;
+    font-size: 16px;
+    font-size: 400;
+    color: #55527c;
+}
+.skillsDiv {
+    width: 95%;
+}
+.skillsText {
+    width: 100%;
+    color: #b4b2c5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.skillsImg {
+    width: 80%;
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5vw;
+}
+.skillPic {
+    max-width: 10rem;
+    min-width: 8rem;
+    max-height: 10rem;
+    min-height: 8rem;
+    border-radius: 20px;
+    border: 5px solid #837ea9;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.skillPic>img {
+    max-width: 10rem;
+    min-width: 8rem;
+}
+@media (width < 991px) {
+    .aboutDiv {
+        padding: 50px 30px 80px 30px;
+        overflow: hidden;
+    }
+    .aboutStyle {
+        min-width: 33rem;
+    }
+    .aboutIntro {
+        font-size: 18px;
+    }
+    .aboutHead {
+        width: 100%;
+        font-size: 40px;
+    }
+    .aboutText {
+        width: 100%;
+    }
+    .skillsDiv {
+        width: 100%;
+    }
+    .skillsText {
+        font-size: 18px;
+    }
+    .skillsImg {
+        width: 100%;
+        min-height: 10rem;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .skillPic {
+        width: 8rem;
+        height: 8rem;
+    }
+    .skillPic>img {
+        width: 8rem;
+    }
+}

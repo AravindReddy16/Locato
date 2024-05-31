@@ -1,0 +1,197 @@
+.introDiv {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.introStyle {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(237, 227, 240);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50% 0% 50% 50%;
+}
+.homeIntro {
+    width: 100%;
+    min-height: 86%;
+    display: flex;
+    padding: 60px 30px 110px 40px;
+}
+.homeContent {
+    width: 50%;
+}
+.homeImg {
+    width: 50%;
+    position: relative;
+}
+.homeImg>img {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 10vw;
+}
+.imgStyle {
+    width: 44vw;
+    height: 44vw;
+    background-color: rgb(214, 242, 251);
+    overflow: hidden;
+    border-radius: 50% 0% 50% 50%;
+}
+.imgStyle>img {
+    width: 44vw;
+}
+.introText {
+    font-size: 78px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #130f49;
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+    word-spacing: 0.3rem;
+}
+#text {
+    color: #34a1cd;
+}
+.helpingText {
+    width: 100%;
+    padding: 0px 50px 30px 50px;
+    font-size: 20px;
+    font-family: Karla;
+    line-height: 1.8rem;
+    word-spacing: 0.1rem;
+    color: #55527c;
+}
+.resumeDiv {
+    width: 100%;
+    padding: 0px 50px 20px 50px;
+}
+.resume {
+    width: 80%;
+    height: 80px;
+    background-color: #f3f3f8;
+    display: flex;
+    border-radius: 10px;
+    color: #55527c;
+    align-items: center;
+    justify-content: center;
+}
+.resumeText {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+}
+.resumeLink {
+    width: 35%;
+    height: 85%;
+    background-color: #130f49;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.resumeLink>a {
+    color: hsla(0, 0.00%, 100.00%, 1.00);
+    text-decoration: none;
+    font-size: 1.4vw;
+}
+.encourageText {
+    width: 100%;
+    padding: 0px 50px 80px 50px;
+    font-size: 1.3vw;
+    color: #55527c;
+}
+.exploreDiv {
+    width: 100%;
+    padding: 0px 50px 20px 50px;
+    display: flex;
+}
+.mouse {
+    width: 35px;
+}
+.outer {
+    width: 20px;
+    height: 35px;
+    border: 3px solid #bebdcf;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.outer>p {
+    font-size: 23px;
+    color: #bebdcf;
+    font-weight: 700;
+}
+.explore {
+    width: 50%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #bebdcf;
+    font-family: Karla;
+    font-weight: 500;
+}
+@media (width < 991px) {
+    .introStyle {
+        width: 70%;
+        height: 25%;
+    }
+    .homeIntro {
+        flex-direction: column;
+        padding: 30px 0px 110px 0px;
+    }
+    .homeContent {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .homeImg {
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+    .homeImg>img {
+        width: 20vw;
+    }
+    .imgStyle {
+        width: 90vw;
+        height: 90vw;
+    }
+    .imgStyle>img {
+        width: 90vw;
+    }
+    .introText {
+        font-size: 57px;
+        padding: 0px 15% 50px 30px;
+    }
+    .helpingText {
+        max-width: 40rem;
+        padding: 0px 30PX 30px 30px;
+    }
+    .resumeDiv {
+        max-width: 30rem;
+        padding: 0px 30px 20px 30px;
+    }
+    .resume {
+        width: 100%;
+        height: 70px;
+    }
+    .resumeText {
+        font-size: 16px;
+    }
+    .resumeLink>a {
+        font-size: 16px;
+    }
+    .encourageText {
+        padding: 0px 30px 50px 30px;
+        font-size: 18px;
+    }
+    .exploreDiv {
+        padding: 0px 30px 20px 30px;
+    }
+}

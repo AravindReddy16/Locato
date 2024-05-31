@@ -1,0 +1,199 @@
+.contactDiv {
+    width: 100%;
+    height: 100%;
+    padding: 70px 100px 50px 80px;
+}
+.contactBox {
+    width: 100%;
+    height: 100%;
+}
+.contactInfo {
+    width: 100%;
+    height: 85%;
+    background-color: rgb(214, 242, 251);
+    border-radius: 40px;
+    padding: 70px 50px;
+}
+.contactOne {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    color: #b4b2c5;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contactTwo {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #130f49;
+}
+.contactThree {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+.mailBox {
+    height: 100%;
+    display: flex;
+}
+.mailImg {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.mail {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 25px;
+    color: #b4b2c5;
+    font-weight: 600;
+}
+.contactFour {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: end;
+}
+.logoImg {
+    width: 50%;
+}
+.logoBox {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoBox>img {
+    width: 2rem;
+}
+.listBox {
+    width: 50%;
+    height: 45%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.listBox>a:hover {
+    color: #34a1cd;
+    cursor: pointer;
+    transition: all 0.25s ease-in;
+}
+.footer {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+}
+.leftPart {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    color: #b4b2c5;
+}
+#foot {
+    color: #34a1cd;
+    cursor: pointer;
+}
+.rightPart {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color: #34a1cd;
+}
+.rightPart>p {
+    cursor: pointer;
+}
+.rightPart>p:first-child {
+    margin-right: 35px;
+}
+@media (width < 991px) {
+    .contactDiv {
+        padding: 50px 30px 80px 30px;
+    }
+    .contactInfo {
+        border-radius: 30px;
+        padding: 50px 30px;
+    }
+    .contactOne {
+        font-size: 18px;
+        height: 10%;
+    }
+    .contactTwo {
+        font-size: 27px;
+        text-align: center;
+        height: 22%;
+    }
+    .contactThree {
+        height: 23%;
+    }
+    .mailBox {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .mailImg {
+        height: 60%;
+        justify-content: center;
+    }
+    .mail {
+        height: 40%;
+        padding-left: 0px;
+        font-size: 16px;
+    }
+    .contactFour {
+        align-items: start;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .logoImg {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .listBox {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        font-size: 18px;
+        gap: 15px;
+        padding-top: 10px;
+    }
+    .footer {
+        flex-direction: column;
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .leftPart {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .rightPart {
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+    }
+    .rightPart>p:first-child {
+        margin-right: 30px;
+    }
+}
