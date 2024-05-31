@@ -41,7 +41,11 @@
     border-radius: 50% 0% 50% 50%;
 }
 .imgStyle>img {
-    width: 44vw;
+    width: 26vw;
+    position: relative;
+    left: 12vw;
+    top: 2vw;
+    z-index: 0;
 }
 .introText {
     font-size: 78px;
@@ -163,7 +167,10 @@
         height: 90vw;
     }
     .imgStyle>img {
-        width: 90vw;
+        width: 55vw;
+        position: relative;
+        left: 23vw;
+        top: 4vw;
     }
     .introText {
         font-size: 57px;

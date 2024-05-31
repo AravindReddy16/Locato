@@ -5,6 +5,7 @@ import ReactJs from "../assets/React.png";
 import Django from "../assets/Django.png";
 import Postgresql from "../assets/Postgresql.jpeg";
 import Js from "../assets/Js.jpeg";
+import Image from "../assets/image.png";
 import { motion } from "framer-motion";
 
 export default function About() {
@@ -25,7 +26,7 @@ export default function About() {
                 <motion.div className="bioPic" initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
                     <div className="picDiv">
                         <div className="pic">
-                            <img src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb3dd66fe61a_Hero%20Person.png" alt="Pic" />
+                            <img src={Image} alt="Pic" />
                         </div>
                     </div>
                     <div className="bioDiv">

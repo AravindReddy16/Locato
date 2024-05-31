@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/intropage.css";
 import Navbar from "./navbarpage.js";
 import { motion } from "framer-motion";
+import Image from "../assets/image.png";
 
 export default function Intro() {
   return (
@@ -43,7 +44,7 @@ export default function Intro() {
         <motion.div className="homeImg" initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{once: true}} transition={{ duration: 0.8, ease: "linear" }}>
           <img src="https://uploads-ssl.webflow.com/5f067b661807eb95a36fe56a/5f067b661807eb5bf16fe5cc_Dots%20Purple.svg" alt="Style"/>
           <div className="imgStyle">
-            <img src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb3dd66fe61a_Hero%20Person.png" alt="Image" />
+            <img src={Image} alt="Image" />
           </div>
         </motion.div>
       </div>
