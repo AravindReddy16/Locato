@@ -18,17 +18,17 @@ export default function Project() {
                 </div>
             </motion.div>
             <div className="projectBox">
-                <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/E-Commerce-Website")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
+                <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/Freshmenta-ECommerce--ReactJs")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
                     <div className="projectTitle">
                         <div className="projectLogo">
                             <img src="https://uploads-ssl.webflow.com/5f067b661807eb95a36fe56a/5f067b661807eb9b426fe5ac_Development.svg" alt="logo" />
                         </div>
                         <div className="projectName">
-                            <p>E-Commerce Website</p>
+                            <p>Online Grocery Store</p>
                         </div>
                     </div>
                     <div className="projectInfo">
-                        <p>E-Commerce Website using html, css, js. Mainly focusing on the cart functionalities where you can add, delete and update items price.</p>
+                        <p>Online Grocery Store using React with all the features like add and delete from cart and favourite functionalities with responsive to different screen sizes.</p>
                     </div>
                 </motion.div>
                 <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/ChatSystem")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
@@ -44,30 +44,30 @@ export default function Project() {
                         <p>A Chat System using django and other web technologies like html, css, js. It comes with user authentication, group and individual chat rooms and also allows users to follow and unfollow others for privacy chat.</p>
                     </div>
                 </motion.div>
-                <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/Tic-Tac-Toe-JS")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
+                <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/MinimumLivingCost")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
                     <div className="projectTitle">
                         <div className="projectLogo">
                             <img src="https://uploads-ssl.webflow.com/5f067b661807eb95a36fe56a/5f067b661807eb9b426fe5ac_Development.svg" alt="logo" />
                         </div>
                         <div className="projectName">
-                            <p>Tic-Tac-Toe</p>
+                            <p>Housing Rental Site</p>
                         </div>
                     </div>
                     <div className="projectInfo">
-                        <p>A simple game using html, css, js. It helps me in learning the logic behind the game rules to get the winner and allows users to know the their chance to play.</p>
+                        <p>Housing Rental Site using React by focusing on frontend part with responsive to different screen sizes.It shows the proficiency in React and styling the pages.</p>
                     </div>
                 </motion.div>
-                <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/Expense-Tracker-ReactJS")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
+                <motion.div className="project" onClick={() => route("https://github.com/AravindReddy16/Library--Store-Files-")} initial={{y: 50, opacity: 0}} whileInView={{y: 0, opacity: 1}} viewport={{once:true}} transition={{ duration: 0.8, ease: "linear" }}>
                     <div className="projectTitle">
                         <div className="projectLogo">
                             <img src="https://uploads-ssl.webflow.com/5f067b661807eb95a36fe56a/5f067b661807eb9b426fe5ac_Development.svg" alt="logo" />
                         </div>
                         <div className="projectName">
-                            <p>Expense Tracker</p>
+                            <p>Online File Store</p>
                         </div>
                     </div>
                     <div className="projectInfo">
-                        <p>Expense Tracker is a type of calculator that helps the people to know, how their income and expenses are handled. It build with the help of React.</p>
+                        <p>It's an Online File Storage with Dajngo and Some Styling.Which is mainly focusing on Backend functionalites.It helps the users to store the files online with user authentiaction.</p>
                     </div>
                 </motion.div>
             </div>
