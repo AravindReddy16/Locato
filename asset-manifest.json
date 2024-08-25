@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Locato/static/css/main.a2e1b3d1.css",
-    "main.js": "/Locato/static/js/main.2c713e8d.js",
+    "main.js": "/Locato/static/js/main.528beb00.js",
     "static/js/453.83234151.chunk.js": "/Locato/static/js/453.83234151.chunk.js",
     "static/media/image.png": "/Locato/static/media/image.e410ca2e7f0165aeb0c9.png",
     "static/media/React.png": "/Locato/static/media/React.fb59dfc6bb1bac6b0ad0.png",
@@ -10,11 +10,11 @@
     "static/media/python.jpeg": "/Locato/static/media/python.472291890dcb6ebce51e.jpeg",
     "index.html": "/Locato/index.html",
     "main.a2e1b3d1.css.map": "/Locato/static/css/main.a2e1b3d1.css.map",
-    "main.2c713e8d.js.map": "/Locato/static/js/main.2c713e8d.js.map",
+    "main.528beb00.js.map": "/Locato/static/js/main.528beb00.js.map",
     "453.83234151.chunk.js.map": "/Locato/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e1b3d1.css",
-    "static/js/main.2c713e8d.js"
+    "static/js/main.528beb00.js"
   ]
 }
