@@ -23,7 +23,7 @@ export default function Intro() {
                 <p>Find My Resume, Here</p>
               </div>
               <div className="resumeLink">
-                <a href="https://docs.google.com/document/d/1TyKXtAY3pU9YWYH8Y1G3eZ6lzzFkVB4n_LjGsPrzlz0/edit?usp=sharing" target="_blank">MyResume</a>
+                <a href="https://drive.google.com/file/d/1lfFq6wowOsnF8j9FFWg3mvGmMv8cf_YC/view?usp=sharing" target="_blank">MyResume</a>
               </div>
             </div>
           </div>
